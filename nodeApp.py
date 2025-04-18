@@ -133,7 +133,7 @@ async def node_gap(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("Invalid number. Usage: /node gap <seconds>")
 
 def main():
-    app = Application.builder().token("YOUR_TELEGRAM_BOT_TOKEN").build()
+    app = Application.builder().token("8086347655:AAGXmyMQ6HyMa0aV2C-rSaCtsYhipz-3Tkk").build()
     app.add_handler(CommandHandler("help", help_command))
     app.add_handler(CommandHandler("node_key", node_key))
     app.add_handler(CommandHandler("node", node_run, block=False))
